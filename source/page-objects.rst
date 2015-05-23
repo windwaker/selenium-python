@@ -14,9 +14,10 @@ Page Objects
 
 This chapter is a tutorial introduction to page objects design
 pattern.  A page object represents an area in the web application user
-interface that your test is interating.  Page objects reduces the
-amount of duplicated code and if the user interface changes, the fix
-need only changes in one place.
+interface that your test is interacting with.  Page objects reduce the
+amount of duplicated code, and if the user interface changes, the fix
+need only be applied in one place. The pag object allows the test developer
+to write DRY (Don't repeat yourself) code.
 
 Test case
 ~~~~~~~~~
